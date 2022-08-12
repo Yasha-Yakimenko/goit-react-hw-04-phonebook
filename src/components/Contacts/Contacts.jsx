@@ -25,5 +25,8 @@ export default function Contacts({ arr, onDelContact }) {
 
 Contacts.propTypes = {
   arr: PropTypes.array.isRequired,
-  onDelContact: PropTypes.func,
+  onDelContact: PropTypes.func.isRequired,
+  name: PropTypes.string,
+  number: PropTypes.string,
+  id: PropTypes.string,
 };
